@@ -1,7 +1,7 @@
 // src/utils/sendWebhook.ts
 export async function sendBreakoutAlert(webhookUrl: string) {
   const payload = {
-    content: "@CoruscantGuardPersonnel",
+    content: "<@&1269671417394499684>",
     embeds: [
       {
         title: "🚨 Prison Breakout Detected",
